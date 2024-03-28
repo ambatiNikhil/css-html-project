@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 10vh;
+}
+.headerContainer{
+    height: 100vw;
+    width: 100vw;
+    background-color: lavenderblush;
+}
+.navLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45px;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+.navRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButton{
+    border-radius: 30px;
+    width: 75px;
+    height: 35px;
+    border: 1px solid black ;
+}
+
+.headerImageBox{
+    background-image: url(header\ image.png);
+    height: 90vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    text-align: center;
+}
+
+.heading1{
+    background-image: linear-gradient(to right, #ff9900, blue, red);
+    -webkit-background-clip: text; /* For Safari and older versions of Chrome */
+    color: transparent; /* Make the text transparent to reveal the gradient background */
+    display: inline-block;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+}
+
+.whiteBox{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    height: 80px;
+    width: 70vw;
+    border-radius: 120px;
+    margin-left: 180px;
+}
+h6{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.whiteBoxParagraph{
+    color: gray;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.whiteBoxButton{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #ff9900;
+    border: none;
+} 
+.containerTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+/* h2{
+    margin-left: 20px;
+    margin-top: 30px;
+} */
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+}
+.imagesBox{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 15px;
+    grid-template-areas: "box1  box2 box3 box3"
+                          "box1 box4 box5 box6";
+    padding: 10px;
+}
+
+.imgBox1{
+    grid-area: box1;
+    background-image: url(ifltower.png);
+    background-size: cover;
+    height: 520px;
+    border-radius: 10px;
+}
+.imgBox2{
+    grid-area: box2;
+    background-image: url(Beach\ tours.png);
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+.imgBox3{
+    grid-area: box3;
+    background-image: url(cityTowers.png);
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+.imgBox4{
+    grid-area: box4;
+    background-image: url(musium\ tour.png);
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+.imgBox5{
+    grid-area: box5;
+    background-image: url(Food.png);
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+.imgBox6{
+    grid-area: box6;
+    background-image: url(hiking.png);
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+} 
+
+.featuresBox{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.logoStyle{
+    height: 30px;
+    width: 50px;
+}
+.fTextBox{
+    display: flex;
+    justify-content: space-around;
+}
+.fBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.fbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h5{
+    font-size: 15px;
+} 
+
+.slidesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slide{
+    height: 450px ;
+    border-radius: 15px;
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 12px;
+}
+.slideImg{
+  width: 100%;
+  border-radius: 15px;
+}
+.slideFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price{
+    font-style: 25px;
+    font-weight: bold;
+    color: black;
+}
+.container4{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.imageBox1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bigImg1 , .bigImg2 , .bigImg3 , .bigImg4{
+    height: 400px;
+    background-image: url(Beach\ tours.png);
+    background-size: cover;
+    border-radius: 15px;
+    width: 20vw;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.bigImg1{
+background-image: url(Beach\ tours.png);
+}
+
+.bigImg2{
+    background-image: url(cityTowers.png);
+    }
+.bigImg3{
+        background-image: url(hiking.png);
+        }
+.bigImg4{
+            background-image: url(ifltower.png);
+     }
+
+.headerBox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+.customerImageOne{
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+.articlesCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.article{
+    height: 400px;
+    width: 20%;
+    margin: 10px;
+}
+.articleImg1{
+    height: 50%;
+    background-image: url(articleImg1.png);
+    background-size: cover;
+
+}
+
+.articleImg2{
+    height: 50%;
+    background-image: url(articleImg2.png);
+    background-size: cover;
+
+}
+
+.articleImg3{
+    height: 50%;
+    background-image: url(articleImg3.png);
+    background-size: cover;
+
+}
+
+.articleButton{
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    color: transparent;
+    margin: 15px;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.container7{
+    height: 500px;
+    width: 100vw;
+    background-image: url(phoneFrame.png);
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    color: white;
+     display: flex;
+    justify-content: flex-start;
+
+}
+
+.formCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    margin-left: 20px;
+}
+input{
+    height: 25px;
+    width: 220px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formButton{
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    width: 50px;
+    color: black;
+
+}
+
+.container8{
+    background-color: darkblue;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center;
+    gap: 15px; */
+}
+
+.lContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.lastList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
